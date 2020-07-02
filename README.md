@@ -2,7 +2,9 @@
 
 Utilize este repositório para criar a dimensão tempo do seu projeto de ETL no Pentaho Data Integration (PDI) em Português-Brasil.
 
-Exemplo de execução no Mac OS X: (Altera a pasta caso necessário)
+### Exemplo de execução no Mac OS X: ###
+
+Altera a pasta caso necessário
 
 `/Applications/pentaho/data-integration/kitchen.sh \
     -param:DW_SERVER=localhost \
@@ -12,7 +14,9 @@ Exemplo de execução no Mac OS X: (Altera a pasta caso necessário)
     -param:DW_PASS=postgres \
     -file dim_tempo.kjb > dim_tempo.log`
 
-Exemplo de execução no Linux: (Altera a pasta caso necessário)
+### Exemplo de execução no Linux: ###
+
+Altere a pasta caso necessário
 
 `/opt/pentaho/data-integration/kitchen.sh \
     -param:DW_SERVER=localhost \
